@@ -1,5 +1,6 @@
 package com.cisc181.core;
 import static org.junit.Assert.*;
+
 import com.cisc181.eNums.eTitle;
 
 
@@ -16,15 +17,15 @@ public class Staff_Test {
 	}
 	
 	@Test
-	public void test() {
+	public void test() throws PersonException {
 		
 		ArrayList<Staff> Staff = new ArrayList<Staff>();
 		
-		Staff TIM = new Staff(eTitle.BANKER);
-		Staff MIKE = new Staff(eTitle.ACCOUNTANT);
-		Staff KATE = new Staff(eTitle.TEACHER);
-		Staff JAMES = new Staff(eTitle.BANKER);
-		Staff ERIC = new Staff(eTitle.BANKER);
+		Staff TIM = new Staff(eTitle.MR);
+		Staff MIKE = new Staff(eTitle.MR);
+		Staff KATE = new Staff(eTitle.MRS);
+		Staff JAMES = new Staff(eTitle.MR);
+		Staff ERIC = new Staff(eTitle.MR);
 
 		TIM.setSalary(98300.00);
 		MIKE.setSalary(133000.00);

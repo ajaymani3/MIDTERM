@@ -4,8 +4,8 @@ public class PersonException extends Exception {
 	
 	private Person PERSON;
 	
-	public PersonException(Person person){
-		this.PERSON = person;
+	public PersonException(Person Person){
+		this.PERSON = Person;
 	}
 	
 	public Person getPerson(){

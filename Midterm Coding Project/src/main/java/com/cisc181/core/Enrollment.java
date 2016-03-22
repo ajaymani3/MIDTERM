@@ -13,6 +13,7 @@ public class Enrollment {
 	public Enrollment(UUID StudentID, UUID SectionID){
 		this.SectionID = SectionID;
 		this.StudentID = StudentID;
+		this.EnrollmentID = EnrollmentID;
 		
 	}
 
